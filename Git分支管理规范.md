@@ -32,3 +32,10 @@
     // 恢复工作区，继续开发
     git stash pop
     ```
+## git版本管理
+  - `git log` 查看提交记录
+  - `git reflog` 查看所有历史命令
+  - `git reset --hard commit_id` 去往某一个版本
+  - `git reset --hard HEAD^` 回到上一个版本
+  - `git reset --hard HEAD~n` 回到上n个版本
+  
